@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mainActivityBinding= DataBindingUtil.setContentView(this,R.layout.activity_main);
 
         mainActivityBinding.rView.setLayoutManager(new LinearLayoutManager(this));
-        mainActivityBinding.rView.setAdapter(new RAdapter(Arrays.asList("gokul","rizwan","abcd"),this));
+        mainActivityBinding.rView.setAdapter(new RAdapter(Arrays.asList("gokul","rizwan","abcd","Hello","hi"),this));
     }
 
 }
